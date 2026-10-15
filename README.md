@@ -27,6 +27,31 @@ These are areas to explore, not claims of completed implementations.
 
 Each automation has its own folder under [projects](projects/README.md), containing code and usage documentation. New automations will be added to this index as the portfolio grows.
 
+## Download and run
+
+Open a project above to find its requirements, code, examples, and run instructions.
+
+- **One Python file:** open the file and use **Download raw file**. Follow the project's README to run it.
+- **Entire portfolio:** choose **Code → Download ZIP**, extract it, and open the required project folder.
+- **Using Git:** clone this repository, then enter the required project folder.
+
+```bash
+git clone https://github.com/shiva-modugumudi/Secure-Automations.git
+cd Secure-Automations/projects/ip-triage-helper
+python3 ip_triage_helper.py
+```
+
+## Portfolio structure
+
+| Path | Contents |
+| --- | --- |
+| `README.md` | Portfolio introduction and automation index |
+| `projects/ip-triage-helper/` | IP Triage Helper code and its README |
+| `projects/<project-name>/` | Each future automation and its own documentation |
+| `docs/project-guide.md` | Shared project documentation standard |
+
+Secure Automations is the main home for SOC automation development. Project folders use descriptive names; Python files use underscores. Each new automation is added to both project indexes. The earlier standalone IP Triage Helper repository points here for current development.
+
 ## Repository guide
 
 | Location | Purpose |
