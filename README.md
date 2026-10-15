@@ -25,7 +25,6 @@ These are areas to explore, not claims of completed implementations.
 | --- | --- | --- |
 | [IP Triage Helper](projects/ip-triage-helper/) | Validate IPv4 and IPv6 addresses and report global address classification | Working foundational project |
 | [IP Threat Intelligence Enrichment](projects/ip-threat-intel-enrichment/) | Collect threat intelligence source results and summarize IP reputation evidence | Planned |
-| [SOC Detection Engineering Lab](projects/soc-detection-engineering-lab/) | Develop and validate SIEM detection use cases with investigation playbooks | Planned |
 
 Each automation has its own folder under [projects](projects/README.md), containing code and usage documentation. New automations will be added to this index as the portfolio grows.
 
