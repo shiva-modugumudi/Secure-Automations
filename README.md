@@ -24,6 +24,7 @@ These are areas to explore, not claims of completed implementations.
 | Project | Purpose | Status |
 | --- | --- | --- |
 | [IP Triage Helper](projects/ip-triage-helper/) | Validate IPv4 and IPv6 addresses and report global address classification | Working foundational project |
+| [IP Threat Intelligence Enrichment](projects/ip-threat-intel-enrichment/) | Collect threat intelligence source results and summarize IP reputation evidence | Planned |
 
 Each automation has its own folder under [projects](projects/README.md), containing code and usage documentation. New automations will be added to this index as the portfolio grows.
 
@@ -50,7 +51,7 @@ python3 ip_triage_helper.py
 | `projects/<project-name>/` | Each future automation and its own documentation |
 | `docs/project-guide.md` | Shared project documentation standard |
 
-Secure Automations is the main home for SOC automation development. Project folders use descriptive names; Python files use underscores. Each new automation is added to both project indexes. The earlier standalone IP Triage Helper repository points here for current development.
+Secure Automations is the main home for SOC automation development. Project folders use descriptive names; Python files use underscores. Each new automation is added to both project indexes. IP Triage Helper is maintained within this portfolio.
 
 ## Repository guide
 
