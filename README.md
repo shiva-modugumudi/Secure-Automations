@@ -25,6 +25,7 @@ These are areas to explore, not claims of completed implementations.
 | --- | --- | --- |
 | [IP Triage Helper](projects/ip-triage-helper/) | Validate IPv4 and IPv6 addresses and report global address classification | Working foundational project |
 | [IP Threat Intelligence Enrichment](projects/ip-threat-intel-enrichment/) | Collect threat intelligence source results and summarize IP reputation evidence | Planned |
+| [Automated Threat Intelligence Pipeline](projects/automated-threat-intelligence-pipeline/) | Collect OTX indicators with Python and deliver selected intelligence through MISP to a SIEM | Planned |
 
 Each automation has its own folder under [projects](projects/README.md), containing code and usage documentation. New automations will be added to this index as the portfolio grows.
 
