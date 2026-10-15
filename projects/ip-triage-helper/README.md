@@ -1,5 +1,7 @@
 # IP Triage Helper
 
+[Portfolio home](../../README.md) · [All automations](../README.md)
+
 A beginner Python SOC automation project that validates an IP address and reports whether Python classifies it as globally reachable.
 
 ## Features
@@ -9,6 +11,12 @@ A beginner Python SOC automation project that validates an IP address and report
 - Validates the address using Python’s built-in `ipaddress` module.
 - Displays a clear message for invalid input using `try` / `except ValueError`.
 - Reports `Globally routable IP` or `Not globally routable IP` using `is_global`.
+
+## Download only this script
+
+Open [ip_triage_helper.py](ip_triage_helper.py), then select **Download raw file**. Save it in a folder and open a terminal there.
+
+On macOS or Linux, run `python3 ip_triage_helper.py`. On Windows with the Python launcher installed, run `py ip_triage_helper.py`.
 
 ## Run
 
