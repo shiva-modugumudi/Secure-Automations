@@ -21,11 +21,11 @@ These are areas to explore, not claims of completed implementations.
 
 ## Projects
 
-Practical SOC projects will be added to [projects](projects/README.md) as they are defined and built. No completed operational projects are listed yet.
+| Project | Purpose | Status |
+| --- | --- | --- |
+| [IP Triage Helper](projects/ip-triage-helper/) | Validate IPv4 and IPv6 addresses and report global address classification | Working foundational project |
 
-### Practice project
-
-[IP Triage Helper](https://github.com/shiva-modugumudi/ip-triage-helper) is a separate foundational Python project. It validates IPv4 and IPv6 input, handles invalid addresses, and reports global address classification. It does not check threat reputation or actual connectivity.
+Each automation has its own folder under [projects](projects/README.md), containing code and usage documentation. New automations will be added to this index as the portfolio grows.
 
 ## Repository guide
 
